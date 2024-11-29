@@ -1,0 +1,8 @@
+ WAP to find duplicate elements in an array
+
+ WAP to accept two array elements(A and B) from the user and return true if the array A first element is equal to the array B
+ last element
+
+ WAP to print common elements between two arrays
+
+ 

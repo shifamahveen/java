@@ -1,0 +1,20 @@
+Paper : (BCC 608) (b):BUSINESS ANALYTICS PROGRAMMING
+Paper: BCC 608(b) Max. Marks: 80+20
+PPW: 5 Hrs Exam Duration: 3Hrs
+Objective: Students will learn how to master basics of most used Analytical Softwares like BaseSAS, R and Python.
+UNIT-I: INTRODUCTION: Database Management Systems – Definition, What is MySql?
+MySql Installer, Download sample Database, Loading Sample Database, Structured Query
+Language, Data types.
+UNIT-II: DATA DEFINITION AND MANIPULATION: Creating Table, Data Integrity,
+Creating constraints, Querying Database, Retrieving result sets, Functions and Joins, Sub
+Queries.
+UNIT-III: BASICS OF SAS: Introduction to SAS, Installation of SAS university Edition,
+prerequisites for data analysis using SAS, SAS architecture, Data Types, formats and informats,
+SAS coding- Data step and proc step, libraries, Importing external data, Reading and
+manipulating Data, functions, Data Transformations, Conditional Statements.
+UNIT-IV: PYTHON: Basics of Python – various tools, Installation of Anaconda Navigator,
+Data types – string, tuples, set, lists, dictionary, Arrays. Spyder and Documentation with ss
+UNIT-V: R PROGRAMMING: Basics of R, Installation of R studio, Vectors, Matrices, Data
+types, Importing files, Writing files, Merging Files, Data Manipulation and Data Cleaning,
+Functions,
+SUGGESTED REA

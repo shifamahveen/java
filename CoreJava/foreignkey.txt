@@ -1,0 +1,71 @@
+ create table customer1(
+ cid int primary key,
+ cname varchar(30),
+ phno int);
+
+
+ create table order1(
+ oid int primary key,
+ oname varchar(30) not null,
+ cid int,
+ foreign key(cid) references customer1(cid));
+
+
+ customer1 is the parent table
+ order1 is the child table.
+
+customer1 table cid values are only allowed for cid
+of order1 table.
+
+Because foreign key always refer to the primary key of
+parent table.
+
+------------------------------------------------------
+
+sub queries
+
+Employee
+eid
+ename
+sal
+dept
+
+departments
+deptid
+department
+
+
+select employees from department with the department hr.
+
+SELECT * 
+FROM Employee 
+WHERE dept=(SELECT department FROM Departments WHERE department='hr');
+
+
+
+-----------------------------------------------------
+
+
+Second Highest salary
+select max(sal) from employee where sal < (select max(sal) from employee;
+
+-----------------------------------------------------
+
+select all employees whose department is in departments table.
+
+
+IN operator is used to compare the column values with the list of values
+
+SELECT * 
+FROM Employee 
+WHERE dept IN (SELECT department FROM Departments); 
+_________________________________________________________________
+
+NOTIN operator is used to compare the column values with
+list of values which doesn't match
+
+select all employees whose department is not in department table.
+
+SELECT * 
+FROM Employee 
+WHERE dept NOT IN (SELECT department FROM Departments);
